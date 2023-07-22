@@ -6,4 +6,32 @@
 }
 .three{
     color: rgb(82, 82, 130);
+    border-bottom:1px solid white;
+}
+.logo{
+    margin-left: 66%;
+
+}
+.effect a:hover {
+    color:rgb(220, 129, 65);
+  }
+.two:hover{
+    color: chocolate;
+}
+.four:hover{
+background-color: black;
+}
+.four{
+    background-color: coral;
+    color: white;
+    border:none;
+    padding:10px ;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.effect a{
+    color: black;
+}
+.five{
+    color: rgb(82, 82, 130);
 }
