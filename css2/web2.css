@@ -10,6 +10,25 @@ header{
     background-size: cover;
     height: 100vh;
 }
+.logo{
+  margin-left: 60%;
+
+}
+.sunny{
+  color: white;
+}
+.contact{
+   border-radius: 30px;
+  font-family: 'Fraunces', serif;
+    color: black;
+    background-color: white;
+    padding: 14px 25px;
+    border-radius: 35px;
+    font-size: 14px; 
+}
+.contact:hover{
+  background-color: white;
+}
 .one{
     background-image: url(../img2/image-graphic-design.jpg);
     background-repeat: no-repeat;
@@ -50,6 +69,20 @@ header{
     color: #23303B;
 
 } */
+.heading{
+  /* padding-bottom: 20%; */
+  padding-top: 10%;
+  padding-left: 35%;
+  letter-spacing: 6px;
+  font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #FFF;
+}
+.arrow{
+  padding-left: 50%;
+ padding-top: 12%;  
+}
 .p1{
     color: #86858B;
     margin-bottom: 25px;
@@ -202,23 +235,45 @@ font-family: 'Fraunces', serif;
 .a1{
     text-align: center;
     padding-left: 45%;
-    color: black;
+    color: #37685e;
     text-decoration: none;
 }
 .a2{
     text-align: center;
-    color: black;
+    color: #37685e;
     text-decoration: none;
 
 }
 .a3{
     text-align: center;
-    color: black;
+    color: #37685e;
     text-decoration: none;
 
 }
 .sec{
     background: #90D4C5;
-    padding-bottom: 20%;
+     padding-bottom: 5%; 
+     padding-top: 5%; 
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
     
+.social{
+  padding-left: 50%;
+  padding-top: 3%;
+}
+.a1:hover{
+  color: #FFF;
+}
+.a2:hover{
+  color: #FFF;
+}
+.a3:hover{
+ color: #FFF;
+}
+.demo>[class*='col-']
+{
+  padding-right: 0;
+  padding-left: 0;
 }
