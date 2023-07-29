@@ -18,7 +18,7 @@ header{
   color: white;
 }
 .contact{
-   border-radius: 30px;
+   border-radius: 35px;
   font-family: 'Fraunces', serif;
     color: black;
     background-color: white;
@@ -27,7 +27,7 @@ header{
     font-size: 14px; 
 }
 .contact:hover{
-  background-color: white;
+  background-color: skyblue;
 }
 .one{
     background-image: url(../img2/image-graphic-design.jpg);
@@ -72,16 +72,16 @@ header{
 .heading{
   /* padding-bottom: 20%; */
   padding-top: 10%;
-  padding-left: 35%;
+  padding-left: 30%;
   letter-spacing: 6px;
   font-family: 'Fraunces', serif;
-    font-weight: 900;
-    font-size: 60px;
+    font-weight: 800;
+    font-size: 70px;
     color: #FFF;
 }
 .arrow{
   padding-left: 50%;
- padding-top: 12%;  
+ padding-top: 10%;  
 }
 .p1{
     color: #86858B;
@@ -252,15 +252,15 @@ font-family: 'Fraunces', serif;
 }
 .sec{
     background: #90D4C5;
-     padding-bottom: 5%; 
+     padding-bottom: 6%; 
      padding-top: 5%; 
     font-family: 'Barlow', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
 }
     
 .social{
-  padding-left: 50%;
+  padding-left: 45%;
   padding-top: 3%;
 }
 .a1:hover{
@@ -277,3 +277,47 @@ font-family: 'Fraunces', serif;
   padding-right: 0;
   padding-left: 0;
 }
+.img1{
+  padding-right: 5%;
+}
+.img2{
+  padding-right: 5%;
+}
+.img3{
+  padding-right: 3%;
+}
+a{
+  font-weight: 900;
+    position: relative;  
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  background-color: #FF7769;
+   height: 10px; 
+  width: 20%;
+  /* left: -5%; */
+  bottom: 0;
+  z-index: -1;
+  transition: height 0.4s;
+}  
+
+a:hover::before {
+  bottom: 0;
+  height: 100%;
+}
+
+.learn {
+  font-family: 'Fraunces', serif;
+  color: #23303B;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 16px;
+  position: relative;
+  padding-left: 30%;
+  padding-right: 20%;
+  /* margin-left: 10%; */
+} 
