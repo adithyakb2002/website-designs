@@ -1,0 +1,43 @@
+.one{
+    color: chocolate;
+}
+.two{
+    color: white;
+    padding-top: 10px;
+    padding-bottom:  10px;
+}
+
+.three{
+    color: rgb(82, 82, 130);
+    border-bottom:1px solid white;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo{
+    margin-left: 66%;
+
+}
+.effect a:hover {
+    color:rgb(220, 129, 65);
+  }
+.two:hover{
+    color: chocolate;
+}
+.four:hover{
+background-color: black;
+}
+.four{
+    background-color: coral;
+    color: white;
+    border:none;
+    padding:10px ;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.effect a{
+    color: black;
+}
+.five{
+    color: rgb(82, 82, 130);
+}
